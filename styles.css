@@ -1,0 +1,178 @@
+</html><style>
+.top-heading {
+    text-align: center;
+}
+
+.top-heading h1 {
+    font-size: 1.1em;
+}
+
+.top-heading .small-text {
+    font-size: 0.7em;
+}
+
+.find-visa .grid {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+}
+
+.find-visa .item {
+    height: 100%;
+    border-radius: 10px;
+}
+
+.find-visa .item .sc_frame_wrap {
+    margin: 0;
+    height: 100%;
+}
+
+.find-visa .item .sc_frame {
+    padding: 0.5em;
+    border-width: 1px;
+    height: 100%
+}
+
+.find-visa .item h3 {
+    margin: 0;
+    padding: 0 0 0.2em;
+    line-height: 1;
+    font-size: 1em;
+    border: none;
+    color: #696969;
+}
+
+.find-visa .item p {
+    padding: 0;
+    font-size: 0.8em;
+}
+
+.find-visa .item img {
+    margin-bottom: 0.4em;
+    width: 100%;
+}
+
+.reason .grid {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.reason .grid .item h3 {
+    font-size: 1em;
+}
+
+.reason .grid .item p {
+    font-size: 1em;
+    padding: 0 1em;
+}
+
+.greeting {
+    margin-top: 2em;
+}
+
+@media screen and (max-width: 599px) {
+    .greeting .sc_frame_text img {
+        margin: auto;
+    }
+}
+
+.contact {
+    margin-top: 1em;
+}
+
+.contact {
+    line-height: 1.5;
+}
+
+*, ::before, ::after {
+    box-sizing: border-box;
+}
+
+/* お問合せ */
+
+.full_cta_area {
+    background-image: url("japanvisasupport/images/bg_cta_full.html");
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: auto;
+    padding: 1em 2em;
+    text-align: center;
+    margin: 4em 0 2em;
+}
+
+.top_image_in, .section_inr {
+    width: 950px;
+    margin: 0 auto;
+}
+
+img.tit_cta {
+    display: block;
+    width: 50%;
+    margin: 2em auto;
+}
+
+.cta_btn_left {
+    float: left;
+    width: 50%;
+    padding-right: 0.5em;
+}
+
+.cta_btn_right {
+    float: right;
+    width: 50%;
+    padding-left: 0.5em;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.cta_btn_center {
+    display: block;
+    width: 70%;
+    margin: 2em auto;
+    padding: 0.5em 2em;
+    border-top: 1px solid #FFF;
+    border-bottom: 1px solid #FFF;
+}
+
+/* sp */
+
+@media only screen and (max-width: 1600px) {
+    .full_cta_area {
+        background-image: url("japanvisasupport/images/bg_cta_full.html");
+        background-size: cover;
+        background-position: top center;
+        height: auto;
+        padding: 2em 1em;
+        text-align: center;
+        margin: 2em 0;
+    }
+    .top_image_in, .section_inr {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .tit_cta {
+        display: block;
+        width: 80%;
+        margin: 1em auto 0.5em;
+    }
+    .cta_btn_left {
+        float: none;
+        width: 100%;
+        padding: 0.5em;
+    }
+    .cta_btn_right {
+        float: none;
+        width: 100%;
+        padding: 0em 0.5em;
+    }
+    .cta_btn_center {
+        display: block;
+        width: 100%;
+        margin: 2em auto;
+        padding: 0.5em 2em;
+        border-top: 1px solid #FFF;
+        border-bottom: 1px solid #FFF;
+    }
